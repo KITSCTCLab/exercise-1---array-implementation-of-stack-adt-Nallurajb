@@ -1,11 +1,11 @@
 import os
 class Stack:
     def __init__(self, size):
-         self.items = []
+        self.items = []
         self.size = size
 
     def is_empty(self):
-       return len(self.items) == 0
+        return len(self.items) == 0
 
     def is_full(self):
         return len(self.items) == size
@@ -17,7 +17,6 @@ class Stack:
     def pop(self):
         if not self.is_empty():
             self.items.pop()
-
 
     def status(self):
         for i in self.items:
