@@ -32,3 +32,4 @@ for line in range(queries):
     elif values[0] == 2:
         stack.pop()
 stack.status()
+
